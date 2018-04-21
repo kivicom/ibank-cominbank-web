@@ -1,0 +1,13 @@
+.btn {
+  border-radius: 0;
+}
+
+.btn-def {
+  background: #0095a1;
+  color: #fff;
+}
+
+.btn-def:hover, .btn-def:focus, .btn-def:focus:active {
+  color: #fff;
+  outline-width: 0;
+}

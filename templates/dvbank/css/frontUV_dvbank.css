@@ -1,0 +1,681 @@
+/*.cabinet-auth .login-sec__form, .cabinet-auth .restore-sec__form {*/
+    /*width: 50%;*/
+    /*min-width: 280px;*/
+    /*max-width: 330px;*/
+    /*float: unset;*/
+/*}*/
+
+.form-auth .client-input__data.password {
+    position: relative;
+}
+
+#view_password_0 {
+    position: relative;
+    left: auto;
+    top: 34px;
+    right: 13px;
+}
+
+.share {
+    position: relative;
+}
+.fixed-header__logo {
+    top: 6px;
+}
+.fixed-header__logo a {
+    width: 52px;
+    height: 71px;
+}
+.fixed-header__logo a img {
+    display: block;
+    width: 100%;
+}
+
+.fixed-header .share .social-list {
+    position: absolute;
+    display: none;
+    background: #fff;
+    top: 47px;
+    right: 0;
+    padding: 5px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+}
+.fixed-header .share:hover .social-list {
+    display: flex;
+}
+.fixed-header .share .social-list:before {
+    content: '';
+    width: 100%;
+    top: -8px;
+    height: 10px;
+    position: absolute;
+    left: 0;
+}
+.search-button {
+    position: relative;
+    background: url(../img/content/dvbank/search.png) center no-repeat #fff;
+    cursor: pointer;
+}
+.search-popup {
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    display: none;
+    z-index: 3;
+}
+.search-popup form{
+    position: relative;
+    width: 45px;
+    height: 45px;
+    background: #fff;
+    transition: all 0.3s ease-out;
+}
+.search-popup.open form{
+    width: 300px;
+}
+.search-popup form input{
+    width: 100%;
+    height: 45px;
+    margin: 0;
+    padding: 0 60px 0 20px;
+    border: 1px solid #ebebeb;
+    font-size: 16px;
+    color: #000;
+}
+.search-popup form button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 45px;
+    height: 45px;
+    border: 1px solid #ebebeb;
+    border-left: 1px solid #fff;
+    background: url('../img/content/dvbank/search.png') center no-repeat #fff;
+}
+.search-popup.open{
+    display: block;
+}
+.btn-frame:after {
+    content: '';
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: block;
+    position: absolute;
+    -webkit-transition: all 0.25s;
+    transition: all 0.25s;
+/*    border: 1px solid #0095a1;*/
+    background: transparent;
+}
+.btn-frame:hover:after {
+    top: 4px;
+    left: 4px;
+    right: -4px;
+    bottom: -4px;
+}
+
+.client__name-dv .header__button{
+    display: none;
+}
+
+.sub-services--item {
+    border: 1px solid rgb(188, 213, 211);
+    border-right: 0;
+}
+
+li.sub-services--item:hover {
+    background-color: rgb(250, 250, 250);
+}
+
+/*li.sub-services--item:first-of-type {*/
+    /*border-radius: 5px 0 0 5px;*/
+/*}*/
+
+.overview_payments .sub-services--item a.btn-green {
+    border-radius: 0;
+}
+
+li.sub-services--item:last-of-type {
+    border-radius: 0 5px 5px 0;
+    border-right: 1px solid rgb(188, 213, 211);
+}
+.overview_templates--mob .col-xs-12 .products__item .name,
+.overview_templates--mob .col-xxs .products__item .name {
+    margin-left: 21px;
+}
+.products_templates .products__item .repeat form {
+    margin-right: 15px;
+    text-align: right;
+}
+
+.langs ul.chzn-results {
+    padding-top: 4px;
+}
+
+.data_danger {
+color: #c42222;
+}
+
+.breadcrumbs {
+    text-align: left;
+}
+
+.cabinet-cards .product-info__slaider+.product-info__buttons .button-with-options {
+    background: url('../img/content/dvbank/card_gears.svg') 15px center no-repeat #f2f3f3;
+    padding-left: 43px;
+}
+
+.cabinet-cards .product-info__slaider+.product-info__buttons .button-with-options:hover {
+    background-color: #0095a1;
+}
+
+.card_info_header .card_num_field__field_name,
+.card_info_header .card_blnc_field__name,
+.card_info_header .card_settings {
+    font-size: 18px;
+    font-family: "Roboto Light", Arial, sans-serif;
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 0;
+}
+
+.card_info_header b {
+    font-family: "Roboto_condensed Bold", Arial, sans-serif;
+}
+
+.cabinet-cards .card_mngmnt .list-with-options {
+    text-align: left;
+}
+
+.card_mngmnt .list-with-options a {
+    padding-left: 48px;
+}
+
+.card_mngmnt .list-with-options a:hover {
+    color:white;
+}
+
+.card_mngmnt .list-with-options .block-card-action {
+    background: url('../img/content/dvbank/card_block.svg') 15px center no-repeat transparent;
+}
+.card_mngmnt .list-with-options .cvv-card-action {
+    background: url('../img/content/dvbank/card_new.svg') 15px center no-repeat transparent;
+}
+.card_mngmnt .list-with-options .card-limit {
+    background: url('../img/content/dvbank/card_limits.svg') 15px center no-repeat transparent;
+}
+
+.card_footer li,
+li.card_mngmnt {
+    margin-bottom: 10px;
+}
+
+.btn_pay button {
+    margin: 0;
+}
+
+.card_num_field__card_num,
+.cabinet-cards .card_blnc_field__value {
+    font-family: "Roboto Bold", Arial, sans-serif;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.cabinet-cards .card_blnc_field__value {
+    font-family: "Roboto Bold", Arial, sans-serif;
+    color: #0096a3;
+    line-height: inherit;
+}
+
+.card_settings__on-off,
+.card_settings__CVV_check {
+    line-height: 1;
+}
+
+.card_settings__on-off {
+    margin-bottom: 6px;
+    padding-top: 3px;
+}
+
+#password_recovery_form .login-buttons {
+    text-align: justify;
+    padding: 0 20px;
+    font-size: 0.1px;
+}
+.modal-content .form-auth .btn-press {
+    width: 250px;
+}
+#password_recovery_form .login-buttons:after {
+    width: 100%;
+    display: inline-block;
+    content: "";
+}
+
+#password_recovery .modal-content {
+    max-width: 600px;
+}
+
+#password_recovery_form .btn-press_recov {
+    border: 1px solid #0095a1;
+}
+
+.cabinet-remittance__success form a {
+    text-transform: initial;
+}
+
+.cabinet-remittance__success form a:hover,
+.cabinet-remittance__success form a:focus {
+    color: white;
+}
+
+@media only screen and (max-width: 767px) {
+
+
+
+    .fixed-header__nav.right {
+        display: block;
+    }
+    .fixed-header__nav.right .info-center,
+    .fixed-header__nav.right .share,
+    .fixed-header__nav.right .exit-enter span.text {
+        display: none;
+    }
+
+    .langs > div {
+        margin-left: -46px;
+    }
+
+    .langs .chzn-container-single .chzn-single {
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+    }
+
+    .fixed-header__nav.right .search-button,
+    .fixed-header__nav.right .exit-enter a {
+        height: 25px;
+        width: 25px;
+        padding: 1px;
+    }
+
+    .fixed-header__nav.right .search-button {
+        background-size: 13px;
+        position: absolute;
+        right: 78px;
+        border-width: 0;
+    }
+
+    .fixed-header__nav.right .search-button .search-popup {
+        top: 36px;
+        right: 0;
+    }
+
+    .search-popup.open form {
+        width: 225px;
+        height: 34px;
+    }
+
+    .search-popup form input {
+        height: 34px;
+        font-size: 15px;
+    }
+
+    .search-popup form button {
+        width: 34px;
+        height: 34px;
+    }
+
+    .client__name-dv {
+        display: none;
+    }
+
+    .card_num_field__field_name {
+        margin-bottom: 0;
+    }
+
+    #password_recovery_form .login-buttons {
+        padding: 0;
+        font-size: 0.1px;
+    }
+
+    header.fixed-header {
+        height: 48px;
+        min-height: 48px;
+        /*padding: 12px 0;*/
+        /*padding-right: 10px;*/
+        padding: 12px 10px 12px 0;
+    }
+    .fixed-header-navigation .fixed-header__logo {
+        height: 35px;
+        width: 23px;
+        left: 50%;
+        top: 9px;
+    }
+    .fixed-header .fixed-header__logo a {
+        width: 100%;
+        height: 100%;
+    }
+    .content-sec {
+        padding-top: 0;
+    }
+    .exchange-rate-block {
+        margin-top: 48px;
+    }
+    .exchange-content-date {
+        padding: 0;
+    }
+    .content-dv .li-grid-item {
+        margin: 0;
+    }
+    footer.footer {
+        margin-top: 0;
+        padding: 26px 0;
+    }
+    .bottom-side .copy, .bottom-side .payforce {
+        text-align: center;
+        margin: auto;
+    }
+
+    .sub-services--inner .sub-services__link {
+        text-align: left;
+    }
+
+    .products_templates .products__item .name {
+        line-height: 1.5;
+    }
+
+    /*.products_templates .products__item .money,*/
+    /*.products_templates .products__item .repeat {*/
+    /*display: none;*/
+    /*}*/
+
+    .products_templates .list--item {
+        margin-top: 15px;
+    }
+
+    .list--item ul li {
+        margin-top: 15px;
+    }
+
+    .overview__title {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        line-height: 1;
+    }
+
+    .expand-container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .sidebar__list a {
+        padding: 15px 15px 15px 45px;
+        text-align: left;
+    }
+
+    .sidebar__list li {
+        margin: 0;
+    }
+
+    .sidebar .sidebar__list img {
+        left: 13px;
+        transform: translateY(-50%);
+        top: 50%;
+        height: 20px;
+        max-width: 20px;
+    }
+
+    .sidebar .sidebar__list span {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .cabinet-cards .card_settings__on-off {
+        margin-bottom: 15px;
+    }
+
+    .cabinet-cards .card_info_header {
+        padding-top: 5px !important;
+    }
+}
+@media only screen and (max-width: 1199px) {
+
+    .fixed-header__nav.right .exit-enter a {
+        min-width: 0;
+        background: url(../img/content/pays/enter_mob.svg) center no-repeat white;
+        border-width: 0;
+    }
+
+    .fixed-header__nav.right .langs {
+        background: #0095a1;
+    }
+
+    .nav.menu.sidebar-bottom {
+        display: block;
+        position: static;
+    }
+
+    #sidebar_mobile {
+        padding: 20px 0;
+        width: 150px;
+        background-color: transparent;
+    }
+
+    #sidebar_mobile .sidebar {
+        display: block;
+    }
+
+    .sidebar {
+        display: block;
+        height: auto;
+    }
+
+    .toggle_sidebar {
+        z-index: 999;
+        padding-top: 0;
+        top: 7px;
+        left: 10px;
+        position: fixed;
+    }
+
+    .toggle_sidebar ul li {
+        border-color: #0095a1;
+    }
+
+    .cabinet-cards  .card_info_header {
+        padding-top: 15px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+
+    .header__button_white .icons {
+        transform: translate(-50%, -50%);
+        left: 50%;
+    }
+
+    .content-sec {
+        padding-top: 92px;
+    }
+
+    .toggle_sidebar {
+        top: 16px;
+    }
+
+    .cabinet-reg .fixed-header,
+    .cabinet-auth .fixed-header,
+    header.fixed-header {
+        padding-left: 65px;
+        padding-top: 12px;
+        min-height: 72px;
+    }
+
+    header.fixed-header .text {
+        line-height: 14px;
+    }
+
+    .fixed-header__logo {
+        top: 12px;
+    }
+
+    .fixed-header__logo a {
+         width: auto;
+         height: auto;
+    }
+
+    .fixed-header__logo a img {
+        height: 45px;
+        width: auto;
+    }
+
+    .fixed-header__nav.right .exit-enter a {
+        background-size: 30px;
+    }
+    .fixed-header__nav.right .info-center,
+    .fixed-header__nav.right .share,
+    .fixed-header__nav.right .exit-enter span.text {
+        display: none;
+    }
+
+    .fixed-header__nav.right .langs {
+        width: 45px;
+        height: 45px;
+    }
+
+    .fixed-header__nav.right .exit-enter {
+        width: 45px;
+        height: 45px;
+    }
+
+    .fixed-header__nav.left {
+        display: block;
+    }
+
+    .fixed-header__nav.left li a {
+        padding-left: 23px;
+    }
+
+    .fixed-header__nav.left li:first-of-type a {
+        width: 140px;
+        padding-left: 40px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+
+    .fixed-header__nav.left li span {
+        display: none;
+    }
+
+    .fixed-header__nav.left li:first-of-type span {
+        display: block;
+    }
+
+    .fixed-header__nav.right .search-button {
+        margin-right: 10px;
+    }
+
+    .fixed-header__nav.right,
+    .fixed-header__nav.right .info-center,
+    .fixed-header__nav.right .share {
+        display: block;
+    }
+
+    .fixed-header__nav.right .info-center span {
+        display: none;
+    }
+
+    .fixed-header__nav.right .info-center {
+        border: 1px solid #ebebeb;
+        height: 45px;
+        width: 45px;
+        position: relative;
+        background: url('../img/content/pays/phone.svg') center no-repeat transparent;
+        background-size: 16px;
+    }
+
+    .fixed-header__nav.right .info-center a {
+        display: block;
+        width: 45px;
+        height: 45px;
+        font-size: 0;
+    }
+
+/*    .fixed-header__nav.right .info-center a:before {
+        width: 16px;
+        height: 16px;
+        background: url('../img/content/pays/phone.svg') center no-repeat red;
+        position: absolute;
+    }*/
+
+    .client__name-dv {
+        display: none;
+    }
+
+    .sidebar {
+        top: 22px;
+    }
+
+    /*.fixed-header__nav.right .search-button {
+        background-size: 13px;
+        position: absolute;
+        right: 78px;
+        border-width: 0;
+    }*/
+
+    .fixed-header__nav.right .search-button .search-popup {
+        top: 65px;
+        right: 0;
+    }
+
+    .search-popup.open form {
+        width: 300px;
+        height: 45px;
+    }
+
+    .search-popup form input {
+        height: 45px;
+        font-size: 18px;
+    }
+
+    .search-popup form button {
+        width: 45px;
+        height: 45px;
+    }
+
+    footer.footer {
+        padding-left: inherit;
+        margin-top: 0;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+    .client__name-dv {
+        text-align: right;
+        width: 300px;
+        float: right;
+    }
+    .client__name-dv .header__button{
+        display: block;
+        position: relative;
+        height: 30px;
+        font-size: 0;
+        line-height: 0;
+        padding: 10px;
+        text-align: center;
+        width: 100px;
+        float: right;
+        margin: 0 10px;
+    }
+    .client__name-dv .header__button .text {
+        line-height: 9px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+
+    .langs {
+        margin-left: 8px;
+    }
+}
+

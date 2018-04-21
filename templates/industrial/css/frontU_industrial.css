@@ -1,0 +1,227 @@
+@media all and (-ms-high-contrast:none) {
+    html {
+        overflow-x: hidden;
+    }
+    .cabinet-auth .login-sec .client-input input, .cabinet-auth .restore-sec .client-input input {
+        height: 34px;
+    }
+    .cabinet-products .sub-services__input,
+    .cabinet-products .client-input input,
+    .cabinet-products .overview_payments .sub-services__descr form .client-input .amount input,
+    .cabinet-auth .login-sec .client-input label,
+    .cabinet-auth .restore-sec .client-input label {
+        height: 24px;
+    }
+    .overview_converter .form__input {
+        height: 35px;
+    }
+    .products_accounts .cards-title input,
+    .form-reg .reg-input label:last-child {
+        height: 15px;
+    }
+    .cabinet-auth .login-sec .client-input input,
+    .cabinet-auth .restore-sec .client-input input,
+    .form-reg .reg-input input,
+    .form-templates .client-input input {
+        height: 34px;
+    }
+    .map-head__search input,
+    .form-templates .client-input label {
+        height: 32px;
+    }
+    .form-reg .reg-input {
+        height: 50px;
+    }
+    .form-reg .btn-press {
+        margin-top: 10px;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .form-reg .reg-input {
+        height: 20px;
+    }
+}
+@media all and (min-width: 768px) and (max-width: 1199px) {
+    .form-templates .client-input label {
+        height: 28px;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .form-templates .client-input label {
+        height: 20px;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 1199px) {
+    .form-templates .client-input input {
+        height: 28px;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .form-templates .client-input input {
+        height: 20px;
+    }
+}
+
+.footer .footer-contacts__buttons {
+    padding: 0;
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: justify;
+    text-justify: distribute-all-lines;
+    font-size: 0;
+    text-justify: newspaper;
+    zoom: 1;
+
+    /* ???????? ? ?????? ????????? ??????*/
+    text-align-last: justify;
+}
+
+.main-nav ul {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    text-align: justify;
+    text-justify: distribute-all-lines;
+    font-size: 0;
+    text-justify: newspaper;
+    zoom: 1;
+
+    /* ???????? ? ?????? ????????? ??????*/
+    /*text-align-last: justify;*/
+}
+
+#exchange_modal .buy-sell-calc .calc-item .calc-input {
+    height: 35px;
+}
+
+.buy-sell-calc .calc-item .calc-select select::-ms-expand,
+.form-templates .client-input select::-ms-expand {
+    border: none;
+    background: #fff;
+}
+
+.form-templates .client-input input,
+.form-templates .client-input textarea,
+.form-templates .client-input select,
+.form-templates .client-input option{
+    height: 34px;
+}
+
+
+.exchange-rate .exchange-tab {
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 0;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+    .exchange-rate {
+        padding-right: 0;
+    }
+}
+
+
+/* Exchange-rate on mob view*/
+
+@media only screen and (max-width: 767px) {
+    .exchange-rate {
+        min-height: 235px;
+
+        padding-right: 0;
+    }
+    .buy-sell-calc {
+        padding-top: 35px;
+    }
+    .buy-sell-calc .calc-item .absolute-name {
+        top: -40px;
+    }
+
+    .buy-sell-calc .calc-item {
+        display: block;
+        margin-bottom: 25px;
+        padding-top: 5px;
+
+        text-align: center;
+    }
+    .buy-sell-calc .calc-item .calc-input {
+        padding: 0;
+        min-width: auto;
+    }
+    .buy-sell-calc .calc-item .calc-select select{
+        min-width: auto;
+    }
+    .buy-sell-calc .calc-item .calc-span {
+        min-width: auto;
+        width: 210px;
+        margin: 0 auto;
+    }
+    .buy-sell-calc {
+
+        background-color: rgba(242, 242, 234, 0.78);
+    }
+    .buy-sell-calc .calc-item .absolute-name {
+        top: -20px;
+        left: 50%;
+
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+    .exchange-rate .exchange-tab {
+        padding-top: 20px;
+    }
+    .calc-item__icons {
+        margin-top: -20px;
+    }
+    .exchange-rate .buy-sell__rate {
+        height: auto;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+    }
+    .exchange-rate .buy-sell__rate li {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-justify-content: center;
+        justify-content: center;
+        width: 90px;
+
+        margin: 0 auto;
+        margin-bottom: 10px;
+
+        -webkit-box-shadow: 0px 0px 6px -1px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 0px 6px -1px rgba(0,0,0,0.75);
+        box-shadow: 0px 0px 6px -1px rgba(0,0,0,0.75);
+    }
+    .exchange-rate .buy-sell {
+        padding-right: 0;
+    }
+    .exchange-rate .buy-sell_last {
+        padding-left: 0;
+    }
+    .exchange-rate .exchange-style {
+        right: auto;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+    .exchange-rate .buy-sell__name,
+    .exchange-rate .buy-sell_last {
+        text-align: center;
+    }
+}

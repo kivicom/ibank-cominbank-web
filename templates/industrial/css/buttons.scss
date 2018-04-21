@@ -1,0 +1,19 @@
+.btn {
+  border-radius: 0;
+}
+
+.btn-def {
+  background: #13e1df;
+  border-radius: 3px;
+  box-shadow: 0 3px 7px rgba(0,0,0,0.26);
+  color: #fff;
+  position: relative;
+  transition: 0.2s;
+}
+
+.btn-def:hover, .btn-def:focus, .btn-def:focus:active {
+  color: #fff;
+  outline-width: 0;
+  box-shadow: 0 2px 3px rgba(0,0,0,0.15);
+  top: 2px;
+}

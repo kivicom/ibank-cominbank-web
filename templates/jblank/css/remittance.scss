@@ -1,0 +1,75 @@
+.remittance {
+  form {
+    label {
+      line-height: 34px;
+    }
+  }
+  .panel-body {
+    padding: 25px;
+    position: relative;
+  }
+
+  select, input {
+    z-index: 0 !important;
+  }
+
+  select[data-type="date"] {
+    display: inline-block;
+    width: auto;
+  }
+
+  input[data-mask='secureCode'] {
+    display: inline-block;
+    width: 50px;
+  }
+
+  input[data-mask="money"] {
+    display: inline-block;
+    width: 150px;
+  }
+
+  hr {
+    border: none;
+    color: #ccc;
+    background-color: #ccc;
+    height: 1px;
+  }
+
+  input:disabled, select:disabled, textarea:disabled {
+    border: none;
+    background: #f0f0f0;
+    color: #666;
+  }
+
+  input[type='checkbox'] {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.cabinet_remittance_error, .error_action {
+  color: #843534;
+  text-align: center;
+  padding: 10px;
+  background-color: #f2dede;
+  border-color: #ebccd1;
+  margin-bottom: 30px;
+}
+
+.cabinet_remittance_success {
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 30px;
+  color: #3c763d;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+}
+
+.remittance_template_delete div {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.remittance_template_delete a {
+  color: #d9534f;
+}

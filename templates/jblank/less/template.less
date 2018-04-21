@@ -1,0 +1,67 @@
+
+// J!Blank Template for Joomla by JBlank.pro (JBZoo.com)
+// Examples and test styles
+
+@import "misc/variables";   // your template vars
+@import "misc/mixins";      // custom mixin libs
+@import "misc/aliases";     // popuplar mixin's names
+@import "layouts/reset";    // Simple style resets
+@import "layouts/messages"; // Joomla messages (<jdoc:include type="message" />)
+@import "layouts/error";    // Joomla error page markup (when fatal error appeared)
+@import "layouts/debug";    // Joomla profiler's styles (when debug is mode on)
+@import "layouts/offline";  // Joomla offline page (when offline is mode on)
+
+// ***************************************** FRONTEND STYLES ***********************************************************
+
+// classic clear fix
+.clearfix {
+    .clearfix();
+}
+
+// example for custom fonts
+// .font-face('FontAwesome', 'fontawesome-webfont');
+
+// include own files
+//@import "layouts/some-layout.less";
+
+// OR write your code here!
+body {
+    //background: #f0f0f0;
+    margin: 0;
+    padding: 0;
+
+    .component-wrapper {
+        padding: 30px 50px 50px;
+        margin: 30px auto;
+        background: #fcfcfc;
+        border: 1px solid #aaa;
+        .size(800px, 'auto');
+        .box-shadow(0 3px 10px #bbb);
+        .border-radius(6px);
+        .gradient(#ddd, #fff);
+    }
+}
+
+// base64 example
+.example-smallImage-to-base64 {
+    background: url('../images/test.png'); // test simple relation path
+    -test1-background: data-uri('../images/test.png'); // test convertion image to base64
+    -test2-background: data-uri('../images/inner/test.png') 0 50% no-repeat;
+    //-test3-background: data-uri('not-exists-image.gif');
+}
+
+// ***************************************** MEDIA QUERIES *************************************************************
+// see variables.less
+@media @print       { @import "media/print.less";       }
+@media @mobile-mini { @import "media/mobile-mini.less"; }
+@media @mobile      { @import "media/mobile.less";      }
+@media @tablet-mini { @import "media/tablet-mini.less"; }
+@media @tablet      { @import "media/tablet.less";      }
+@media @desktop     { @import "media/desktop.less";     }
+@media @desktop-xl  { @import "media/desktop-xl.less";  }
+@media @retina      { @import "media/retina.less";      }
+
+// Combo! =)
+@media @retina, @tablet {
+    // @import "media/retina-tablet.less";
+}

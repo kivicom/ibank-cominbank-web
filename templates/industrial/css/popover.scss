@@ -1,0 +1,13 @@
+.popover {
+  border-radius: 0;
+}
+
+.popover__list_default li a {
+  padding: 5px 15px;
+  margin: 0px -15px;
+  display: block;
+}
+
+.popover__list_default li a:hover {
+  background-color: #f0f0f0;
+}
